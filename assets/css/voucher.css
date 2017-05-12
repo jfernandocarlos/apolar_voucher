@@ -1,0 +1,51 @@
+#formVoucher {
+	padding: 10px;
+}
+
+#formVoucher .form-input {
+	width: auto;
+	margin-bottom: 15px;
+}
+
+#formVoucher .input-error * {
+	color: #e74c3c;
+	border-color: #e74c3c !important;
+}
+
+#formVoucher .form-input label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+#formVoucher .form-input input[type='text'] {
+	border: 1px solid #333;
+	border-radius: 2px;
+	display: block;
+	padding: 10px 0 10px 10px;
+	width: 100%;
+}
+
+#msg_processing_voucher {
+	color: #8e44ad;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 60px 0;
+	text-align: center;
+	width: 100%;
+	display: none;
+}
+
+.apo-voucher-button  {
+	padding: 15px 10px;
+	text-align: center;
+	border: 0px;
+	background: #16a085;
+	color: #fff;
+	border-radius: 2px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.apo-voucher-button:hover {
+	background: #1abc9c;
+}
+

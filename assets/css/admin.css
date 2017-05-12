@@ -1,0 +1,135 @@
+.admin-voucher-content {	
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+ul#voucher-menu {
+	 border-bottom: 1px solid #F1F1F1;
+	 margin-bottom: 1px;
+}
+
+ul#voucher-menu li {
+	border-top: 1px solid #F1F1F1;
+	border-left: 1px solid #F1F1F1;
+	border-right: 1px solid #F1F1F1;
+    cursor: pointer;
+    float: left;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+li.active {
+	background: rgba(22, 160, 133,1.0);
+	color: #fff;
+}
+
+form#filter {
+	margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+form#filter input[type='text'] {
+	border: 1px solid #666;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+form#filter input[name='date_ini'], form#filter input[name='date_fim'] {
+	text-align: center;
+}
+
+form#filter input[type='submit'] {
+	background: rgb(142, 68, 173) none repeat scroll 0 0;
+    border: 1px solid #9b59b6;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+
+table#voucher-list {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+table#voucher-list tr td, table#voucher-list tr th {
+	border: 1px solid;
+	padding: 10px 10px;
+}
+
+.voucher-csv {
+	background: #2980b9 none repeat scroll 0 0;
+    border: 1px solid #3498db;
+    color: #fff;
+    cursor: pointer;
+    padding: 11px;
+    position: absolute;
+    right: 0;
+    top: 35px;
+    text-decoration: none;
+}
+
+.voucher-csv:hover {
+	color: #fff;
+}
+
+form#VoucherConfig {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#voucher-save-config {
+	background: #34495e none repeat scroll 0 0;
+    border: 1px solid #2c3e50;
+    color: #fff;
+    cursor: pointer;
+    padding: 11px;
+    right: 0;
+    top: 35px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.voucher-param-field {
+	margin-top: 20px;
+}
+
+.voucher-param-field label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.voucher-param-field input, .voucher-param-field textarea {
+	width: 40%;
+	padding: 10px;
+}
+
+.voucher-tab {
+	position: relative;
+}
+
+#voucher-list_length {
+	display: none;
+}
+
+.exemplo {
+	margin-bottom: 30px;
+	margin-left: 15px;
+}
+
+.exemplo-code {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.countdown-footer {
+	border-top: 1px solid #F1F1F1;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+}
